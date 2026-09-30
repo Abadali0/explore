@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import productsRouter from "./routes/product.js";
-import{connectDB} from "./utils/DB.js";
+import connectDB from "./utils/DB.js";
 import  dns from "node:dns/promises";
 dns.setServers(["1.1.1.1","8.8.8.8"]);
 
