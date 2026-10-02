@@ -5,8 +5,11 @@ import{
     saveProductController,
     updateProductController
 } from "../controller/product.js";
+import { loginUser } from "../controller/user.js";
 
 const router = express.Router();
+
+
 
 
 router.get("/", getProductsController);
